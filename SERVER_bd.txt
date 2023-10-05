@@ -1,0 +1,50 @@
+\123456.pem
+FRANK EDUARDO GALLO SANCHEZ16:08
+sudo apt upgrade
+update
+FRANK EDUARDO GALLO SANCHEZ16:12
+sudo apt install mysql-server
+sudo su
+sudo mysql_secure_installation
+
+sudo mysql -u root
+sudo mysql -u root -p
+
+passwd root
+exit
+
+ALTER USER 'root@localhost' IDENTIFIED WITH mysql_native_password by 'admin'
+
+ALTER USER 'root@localhost' IDENTIFIED WITH mysql_native_password by 'admin';
+P@ssw0rd2023!
+ALTER USER 'root@localhost' IDENTIFIED WITH mysql_native_password by 'P@ssw0rd2023!';
+
+ALTER USER ‘root'@"localhost" IDENTIFIED WITH mysql_native password by "123456";
+ALTER USER ‘root'@localhost" IDENTIFIED WITH mysql_native password by "123456";
+ALTER USER ‘root'@'localhost' IDENTIFIED WITH mysql_native password by '123456';
+
+ALTER USER 'root'@'localhost' IDENTIFIED WITH 'mysql_native_password' BY '123456';
+Tú16:36
+ERROR 1819 (HY000): Your password does not satisfy the current policy requirements
+mysql>
+ALTER USER 'root'@'localhost' IDENTIFIED WITH 'mysql_native_password' BY 'NuevaContraseñaSegura';
+
+ALTER USER 'root'@'localhost' IDENTIFIED WITH 'mysql_native_password' BY 'NuevaContraseñaSegura';
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'NuevaContraseñaSegura';
+ALTER USER 'leonardi'@'localhost' IDENTIFIED WITH 'mysql_native_password' BY 'NuevaContraseñaSegura';
+
+sudo mysql -u root -p
+sudo mysql -u root -p
+create user ‘leonardi'@' localhost’ IDENTIFIED WITH mysql_native password BY ‘Leonardi69';
+CREATE USER 'leonardi'@'localhost' IDENTIFIED WITH 'mysql_native_password' BY 'Leonardi69';
+Tú16:43
+ERROR 1819 (HY000): Your password does not satisfy the current policy requirements
+SET GLOBAL validate_password.policy = LOW;
+ALTER USER 'root'@'localhost' IDENTIFIED WITH 'mysql_native_password' BY 'NuevaContraseñaSegura';
+ALTER USER 'leonardi'@'localhost' IDENTIFIED WITH 'mysql_native_password' BY 'NuevaContraseñaSegura';
+NuevaContraseñaSegura
+CREATE USER 'leonardi'@'localhost' IDENTIFIED WITH 'mysql_native_password' BY 'Leonardi69';
+GRANT ALL PRIVILEGES ON *.* TO 'leonardi'@'localhost';
+flush privileges;
+FRANK EDUARDO GALLO SANCHEZ16:56
+Leonardi69
