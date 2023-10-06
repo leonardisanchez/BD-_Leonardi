@@ -1,8 +1,8 @@
 \123456.pem
-FRANK EDUARDO GALLO SANCHEZ16:08
+
 sudo apt upgrade
 update
-FRANK EDUARDO GALLO SANCHEZ16:12
+
 sudo apt install mysql-server
 sudo su
 sudo mysql_secure_installation
@@ -46,5 +46,5 @@ NuevaContraseñaSegura
 CREATE USER 'leonardi'@'localhost' IDENTIFIED WITH 'mysql_native_password' BY 'Leonardi69';
 GRANT ALL PRIVILEGES ON *.* TO 'leonardi'@'localhost';
 flush privileges;
-FRANK EDUARDO GALLO SANCHEZ16:56
+
 Leonardi69
